@@ -1,0 +1,72 @@
+iframe{
+    border: 20px solid blue;
+}
+
+#mapa{
+    border-radius: 50%;
+}
+
+#servicios{
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#listaServicios{
+    margin-top:250px;
+}
+
+#float2{ /*gatico*/
+    float:left;
+}
+
+#float3{  /*guarderia*/
+    left: 0%;
+    transform: translate(-5%, -5%);
+
+}
+#float4{  /*solo corte*/ 
+    float:right;
+}
+
+#float5{  /*solo corte*/ 
+    float:inherit;
+}
+
+#float5{  /*solo corte*/ 
+    display: flex;
+    justify-content: space-around;
+}
+
+#zindex{
+    position: absolute;
+    z-index: 2;
+    width: 150em;
+    height:fit-content;
+    align-content: center;
+
+}
+
+#zindex2{ /*azul*/
+    position: absolute;
+    z-index: 1;
+    width: 150em;
+    align-content: center;
+}
+
+#zindex3{ /*shitzu*/
+    position:  absolute;
+    z-index: 5;
+    width: 150em;
+    align-content: center;
+}
+
+#center{
+    align-content: center;
+}
+
+#tabla{
+    margin-top: 30em;
+}
+
